@@ -1,0 +1,177 @@
+/*
+-----------------------------------------------------------------------------------------------
+Name:		styles.css
+Author:		Tiffany broz
+Date:		2023-09-122
+Language:	CSS
+Purpose:	This is the styles sheet I will be intending to use for the rest of the class
+-----------------------------------------------------------------------------------------------
+ChangeLog:
+Who			When			What
+----------- --------------- -------------------------------------------------------------------
+TJB			2023-09-15		Original Version 
+
+TJB			2023-09-22		Changed color theme, removed old styles from past assignment, added 
+                            style for forms, input boxes, submit boxes, drop down select, 
+                            
+TJB			2023-09-13		Finished adding the rest of the comments to the styles. 
+-----------------------------------------------------------------------------------------------
+*/
+
+
+    /* Basic reset to remove default margin and padding */
+body, ul, div, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+    /* Style the body background color */
+body {
+    background-color: #f7f6ee;
+}
+
+    /* Style the header from header.php */
+header {
+    border-bottom: 3px solid #38765d;
+}
+
+    /* Style the footer from footer.php */
+footer {
+    margin-top: 30px;
+    border-top: 2px solid #38765d;
+    font-size: 18px;
+    text-align: center;
+}
+
+    /* Style the h1 in the actor_list.php */
+.header_h1 {
+    color: #441e55;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 100px; 
+    font-weight: bold;
+}
+
+    /* Style the h1 in the nav on index.php */
+.nav_h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 60px; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+    /* Style the h1 above the table in actor_list.php */
+.table_h1 {
+    color: #ce3a73;
+    font-size: 80px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+    /* Stylizes the h1 on actor_change.php and actor_add.php */
+.form_h1 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 60px; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+    /* Stylizes the nav bar in actor_list.php*/
+nav {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+    /* Style the navigation menu list in actor_list.php */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    /* Style the navigation menu links in actor_list.php */
+ul li {
+    color: #937F6E;
+    margin-bottom: 10px; 
+    font-size: 35px;
+}
+
+    /* Style the table in actor_list.php */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Stylizes the table div in actor_list.php */
+.table_div {
+    margin: 10px;
+}
+
+    /* Style table header cells  */
+th {
+    background-color: #38765d;
+    text-align: left;
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #494242;
+}
+
+    /* Style table data cells */
+td {
+    text-align: left;
+    font-size: 20px;
+    padding: 8px;
+    border: 1px solid #494242;
+}
+
+    /* Style odd rows */
+tr:nth-child(odd) {
+    background-color: #fffdf7;
+}
+
+    /* Style even rows */
+tr:nth-child(even) {
+    background-color: #d3d3d1;
+}
+
+    /* Stylizes the form from actor_change.php and actor_add.php */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    /* Stylizes the form group from actor_change.php and actor_add.php */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+    /* Stylizes the labels above the input boxes from actor_change.php and actor_add.php */
+label {
+    display: block;
+    font-size: 20px;
+}
+
+    /* Stylizes the submit button on both forms from actor_change.php and actor_add.php */
+input[type=submit] {
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+}
+
+    /* Stylizes the input boxes on both forms from actor_change.php and actor_add.php */
+input[type=text] {
+    padding: 10px;
+}
+
+    /* Stylizes the drop down select menu on actor_change.php */
+select {
+    padding: 10px;
+}
